@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.iconosh {
+  width: 30px;
+}
+.circulo {
+  width: 15px;
+}
+
+
+#lupa {
+  width: 30px;
+}
+#buscador {
+  height: 30px;
+  width: 300px;
+  position: relative;
+  bottom: 7px;
+}
+#menu {
+  background-color: rgb(199, 171, 100);
+  height: 40px;
+}
+#seccion2 {
+  background-image: url(../imagenes/Portada.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  text-align: center;
+}
+#lista1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40px;
+  list-style: none;
+  color: aliceblue;
+}
+#caja1 {
+  position: relative;
+  left: 60%;
+  bottom: 20px;
+}
+#btn1 {
+  margin-right: 45px;
+}
+#titulo {
+  position: relative;
+  left: 35%;
+  top: 20px;
+  color: brown;
+  font-size: 40px;
+  font-family: cursive;
+  
+}
+
+#texto2 {
+  font-size: 50px;
+  color:aliceblue;
+  position:relative;
+  top: 110px;
+  left: 15px;
+}
+
+#texto3{
+  font-size: 25px;
+  color:aliceblue;
+  position: relative;
+  left: 30px;
+  top:200px;  
+}
+/* Catalogo libros */
+/* Generales */
+.Titulo_Seccion{
+  font-size: 50px;
+  margin-top: 20px;
+  color: brown;
+  font-family: roboto;
+}
+
+.portada{
+  width: 183px;
+  height: 275px;
+  margin-left: 10%;
+}
+
+.libro {
+  width: 250px;
+  height: 400px;
+  border: 2px black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.titulo_libro{
+  font-size: 25px;
+  width: 250px;
+  height: 60px;
+  text-align: center;
+  font-family: roboto;
+}
+
+.Autor{
+  font-size: 15px;
+  width: 250px; 
+  text-align: center;
+  margin-top: 7px;
+  margin-bottom: 10px; 
+  font-family: roboto;
+}
+
+.vermas{
+  font-size: 15px;
+  width: 150px; 
+  text-align: center;
+  color:aliceblue;
+  background-color: brown;
+  border-radius: 5%;
+  margin-top: 2px;
+  margin-bottom: 15px;
+  margin-left: 45px;
+  font-family: roboto;
+}
+
+.precio{
+  color: brown;
+  width: 125px; 
+  margin-left: 55px;
+  font-family: roboto;
+}
+
+.comprar{
+  font-size: 15px;
+  margin-left: 5px;
+  padding:5px;
+  text-align: center;
+  color:aliceblue;
+  background-color: brown;
+  border-radius: 5%;
+  font-family: roboto;
+}
+
+#Recomendaciones{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top:20px;
+ }
+
+#Catalogo{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top:20px;
+ }
+
+ /* Conocenos */
+#Conocenos{
+  display: flex;
+  justify-content: space-around;
+  margin-top:20px; 
+ 
+ }
+ 
+ #nosotros{
+  font-family: roboto;
+  text-align: justify;
+  font-size: 15px;
+  width: 500px;
+ }
+
+ #cafeteria{
+  width:600px;
+  position: relative;
+  right: 0px;
+ }
+
+ #visitanos{
+  font-family: roboto;
+  text-align: center;
+  font-size: 55px;
+  color: brown;
+  width: 500px;
+  top: 55px;
+  left: 20%;
+  position:relative;
+ }
+
+ /* pie de pagina */
+ #pie_pag{
+  background-color: rgb(212,182,142);
+  display: flex;
+ }
+.columna{
+  font-family: roboto;
+  color:aliceblue;
+  width:330px; 
+  font-size: 15px;
+  text-align: justify;
+  padding: 20px;
+  align-items: center;
+}
+
+#columna1{
+  margin-bottom: 15px;
+}
+
+#rrss{
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+#btn3{
+  background-color: brown;
+  color:aliceblue;
+}
+
+#ref{
+  line-height: 27px;
+}
+
+
+ /* derechos */
+ #derechos{
+  background-color: rgb(212,182,142);
+  text-align: center;
+  padding: 15px;
+  font-family: roboto;
+  color:aliceblue;
+ }
